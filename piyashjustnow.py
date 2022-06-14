@@ -301,12 +301,12 @@ def cek_apk(session,coki):
 def file():
             print (logo)
             print('')
-            print("\033[1;92m [A] File Clone ")
+            print("\033[1;92m [1] File Clone ")
             key = input("\n [+] Select One : ")
             if key in [""]:
                 print(" [!] please select correct option")
                 exit()
-            elif key in ["A", "01"]:
+            elif key in ["1", "01"]:
                 __chigoue__().chi(id)
 
 # MULAI CRACK
